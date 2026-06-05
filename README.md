@@ -55,8 +55,8 @@ Request Body Example:
 ```json
 {
   "userId": "12345",
-  "name": "Cristo Cortez",
-  "email": "cristo@example.com",
+  "name": "John Doe",
+  "email": "johndoe@example.com",
   "avatarUrl": "https://example.com/avatar.png"
 }
 ```
@@ -80,7 +80,7 @@ Response:
 ```json
 {
   "userId: "12345",
-  "name": "John Doe',
+  "name": "John Doe",
   "email: "johndoe@example.com",
   "avatarurl": "https://example.com/avatar.png"
 }
