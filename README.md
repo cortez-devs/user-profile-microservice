@@ -49,7 +49,7 @@ All profile operations use the /profiles base route.
 
 ## ➕ Create Profile
 
-**POST /profiles**
+**POST /profiles:**
 Request Body Example:
 ```json
 {
