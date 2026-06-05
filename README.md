@@ -22,18 +22,25 @@ This service stores profile data in a local JSON file and exposes a simple REST 
 
 Clone the repository:
 
-`git clone https://github.com/cortez-devs/user-profile-microservice.git`
-`cd user-profile-microservice`
+```bash
+git clone https://github.com/cortez-devs/user-profile-microservice.git
+cd user-profile-microservice
+```
 
 Install Dependencies:
-`npm install`
+```bash
+npm install
+```
 
 Start Server:
-`npm start`
+```bash
+npm start
+```
 
 Microservice will run at:
-`https://localhost:3002`
-
+```code
+https://localhost:3002`
+```
 # 🛠 API Endpoints
 
 All profile operations use the /profiles base route.
