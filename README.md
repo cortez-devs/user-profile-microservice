@@ -71,12 +71,36 @@ Response:
 ## 📄 Get Profile
 
 **GET /profiles/:userId**
+
 Example:
 ```code
 GET /profiles/12345
 ```
+Response:
+```json
+{
+  "userId: "12345",
+  "name": "John Doe',
+  "email: "johndoe@example.com",
+  "avatarurl": "https://example.com/avatar.png"
+}
+```
 
 ## ✏️ Update Profile
+
 **PUT /profiles/:userId**
+
 Body Example (partial or full update):
 ```json
+{
+  "name": "Updated Name",
+  "avatarUrl": "https://new-image-url.com/avatar.png"
+}
+```
+Response:
+```json
+{
+  "message": "Profile updated successfully",
+  "profile": { ... }
+}
+```
