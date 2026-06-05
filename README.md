@@ -1,29 +1,26 @@
+# User Profile Microservice
+
 A lightweight microservice for creating, retrieving, updating, and deleting user profiles.
 Designed for microservice‑based applications where each service handles a single responsibility.
 
 This service stores profile data in a local JSON file and exposes a simple REST API for other services to consume.
-
-🚀 Features
-Create a new user profile
-
-Retrieve an existing profile
-
-Update profile fields (including avatar URL)
-
-Delete a profile
+---
+# 🚀 Features
+- Create a new user profile
+- Retrieve an existing profile
+- Update profile fields (including avatar URL)
+- Delete a profile
 
 Simple JSON‑based storage
-
 Fully RESTful API design
-
 Easy to integrate with authentication or image microservices
 
-📦 Installation
+# 📦 Installation
 
 Clone the repository:
 
-git clone https://github.com/cortez-devs/user-profile-microservice.git
-cd user-profile-microservice
+`git clone https://github.com/cortez-devs/user-profile-microservice.git`
+`cd user-profile-microservice`
 
 Install Dependencies:
 npm install
