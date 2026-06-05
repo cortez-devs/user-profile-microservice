@@ -7,7 +7,7 @@ This service stores profile data in a local JSON file and exposes a simple REST 
 
 ---
 
-# 🚀 Features
+## 🚀 Features
 - Create a new user profile
 - Retrieve an existing profile
 - Update profile fields (including avatar URL)
@@ -16,7 +16,9 @@ This service stores profile data in a local JSON file and exposes a simple REST 
 - Fully RESTful API design
 - Easy to integrate with authentication or image microservices
 
-# 📦 Installation
+---
+
+## 📦 Installation
 
 Clone the repository:
 
