@@ -49,9 +49,9 @@ All profile operations use the /profiles base route.
 
 ## ➕ Create Profile
 
-POST /profiles
+**POST /profiles**
 Request Body Example:
-```bash
+```json
 {
   "userId": "12345",
   "name": "Cristo Cortez",
@@ -59,11 +59,23 @@ Request Body Example:
   "avatarUrl": "https://example.com/avatar.png"
 }
 ```
+Response:
+```json
+{
+  "message": "Profile created successfully",
+  "profile": {...}
+}
+```
 
 ## 📄 Get Profile
 
-GET /profiles/:userId
+**GET /profiles/:userId**
 Example:
-```bash
+```code
 GET /profiles/12345
 ```
+
+## ✏️ Update Profile
+**PUT /profiles/:userId**
+Body Example (partial or full update):
+```json
