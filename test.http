@@ -1,0 +1,13 @@
+### Create profile
+POST http://localhost:3002/profiles
+Content-Type: application/json
+
+{
+    "userId": "12345",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "bio": "OSU Student"
+}
+
+### Get profile
+GEt http://localhost:3002/profiles/12345
