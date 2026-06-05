@@ -39,19 +39,31 @@ npm start
 
 Microservice will run at:
 ```code
-https://localhost:3002`
+https://localhost:3002
 ```
+---
+
 # 🛠 API Endpoints
 
 All profile operations use the /profiles base route.
 
-➕ Create Profile
-POST /profiles
+## ➕ Create Profile
 
-Body Example:
-`{
+POST /profiles
+Request Body Example:
+```bash
+{
   "userId": "12345",
   "name": "Cristo Cortez",
   "email": "cristo@example.com",
   "avatarUrl": "https://example.com/avatar.png"
-}`
+}
+```
+
+## 📄 Get Profile
+
+GET /profiles/:userId
+Example:
+```bash
+GET /profiles/12345
+```
