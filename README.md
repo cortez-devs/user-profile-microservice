@@ -79,9 +79,9 @@ GET /profiles/12345
 Response:
 ```json
 {
-  "userId: "12345",
+  "userId": "12345",
   "name": "John Doe",
-  "email: "johndoe@example.com",
+  "email": "johndoe@example.com",
   "avatarurl": "https://example.com/avatar.png"
 }
 ```
