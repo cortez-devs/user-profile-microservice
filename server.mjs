@@ -1,9 +1,11 @@
 import express from 'express';
 import profilesRouter from './routes/profiles.mjs';
+import cors from 'cors';
 
 const app = express();
 const PORT = process.env.PORT || 3002;
 
+app.use(cors());
 app.use(express.json());
 
 app.use("/profiles", profilesRouter);
